@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Calculates GPA based on input
 float cal_gpa(int n, float numscore[], float sks[]){
     float gpa=0, skst=0;
     for(int i=0;i<n;i++){
@@ -39,7 +40,7 @@ int main(){
     cout << "Your GPA is: " << cal_gpa(n, numscore, sks) << endl;
 }
 
-/*
+//Outputs The Reversed Word Depending on Input
 string word(string x, int n){
     int length = x.length();
     string res;
@@ -65,4 +66,3 @@ int main(){
     string x =  word(p, n);
     cout << x << endl;
 }
-*/
