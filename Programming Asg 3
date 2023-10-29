@@ -2,6 +2,7 @@
 #include <iomanip>
 using namespace std;
 int main(){
+//Multiplication Table
         int n;
         cout << "insert maximum number: ";
         cin >> n;
@@ -19,4 +20,26 @@ int main(){
             cout << endl;   
         }
         cout << "press Enter to continue...";
+
+//Even Numbers Descending
+        int n;
+        cin >> n;
+        for(int i=n;i>=0;i--){
+          if(i%2==0){
+          cout << i;
+        }else{
+          cout << " ";
+          }
+        }
+
+//Pattern According To User
+        int max, p;
+        cin >> max >> p;
+        for(int i=1;i<=max;i++){
+          if(i%p==0){
+            cout <<  "*";
+          }else{
+            cout << " " << i << " ";
+            }
+          }
 }
