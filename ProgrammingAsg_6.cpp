@@ -1,36 +1,6 @@
 #include <iostream>
 using namespace std;
-
-// struct siswa{
-//     int student_id;
-//     int midterm_score;
-//     int finalexam_score;
-// };
-
-// int main(){
-//     int n;
-//     cout << "Enter the Number of Students" << endl;
-//     cin >> n;
-//     siswa s[n];
-//     while(n>=50){
-//         cout << "Number is beyond maximum. Reinput Number of Students" << endl;
-//         cin >> n;
-//     }
-
-//     for(int i = 0;i<n;i++){
-//         cout << "Enter Student ID : ";
-//         cin >> s[i].student_id;
-//         cout << "Enter Midterm Score : ";
-//         cin >> s[i].midterm_score;
-//         cout << "Enter Final Exam Score : ";
-//         cin >> s[i].finalexam_score;
-
-//         float avg = (s[i].midterm_score + s[i].finalexam_score)/2;
-//         cout  << endl << "Student ID : " << s[i].student_id << endl << "Average : " << avg << endl;
-//         cout << endl;
-//     }
-// }
-// /*
+//Finds The User's Input Zodiac based on Birth Date and Month
 struct siswa{
     string name;
     string month;
@@ -99,10 +69,7 @@ int main(){
         }
 }
 
-
-/*
-//nomor 2
-
+//Saving Student Data and Average Score in a Struct
 struct siswa{
     int student_id;
     int midterm_score;
@@ -131,4 +98,3 @@ int main(){
         cout  << endl << "ID Mahasiswa: " << s[i].student_id << endl << "Rata-rata: " << avg << endl;
     }
 }
-*/
