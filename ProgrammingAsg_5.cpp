@@ -2,45 +2,7 @@
 using namespace std;
 
 int main() {
-    int p;
-    cout << "Insert the length of array:" << endl; 
-    cin >> p;
-    int arr[p],bru[p];
-    cout << endl;
-    cout << "Enter element of array 1" << endl;
-    for(int i=0;i<p;++i){
-        cout << "Enter element a" << i+1 << ": ";
-        cin >> arr[i];
-    }
-
-    for(int i=0; i<p; i++){
-        for(int j=i+1; j<p; j++){ 
-            if(arr[i]>arr[j]){
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }}}
-    cout << endl;
-    cout << "Enter element of array 2" << endl;
-    for(int k=0;k<p;++k){
-        cout << "Enter element a" << k+1 << ": ";
-        cin >> bru[k];
-    }
-    cout << endl;
-    cout << "Intersection: "<< endl;
-    for(int i=0;i<p;i++){
-        for(int k=0;k<p;k++){
-            if(arr[i] == bru[k]){
-                cout << arr[i]  << endl;
-            }
-        }
-    }
-}
-
-
-
-/*
-//nomor 5
+//Finds the smallest positive integer from an input
  int size;
     cout << "How many integers? ";
     cin >> size;
@@ -60,10 +22,8 @@ int main() {
         }
     }
     cout << "The smallest missing positive integer is " << p << endl;
-*/
 
-/*
-//nomor 1
+//FInd the average from an input of a series of a number
     int p; 
     float sum=0;
     cin >> p;
@@ -73,10 +33,8 @@ int main() {
         sum+=arr[i];
     }
      cout << sum/p;
-*/
 
-/*
-//nomor 2
+//Convert Number to Binary
 int number, a=0;
     cin >> number;
     int P[a];
@@ -90,10 +48,8 @@ int number, a=0;
     for(int i=a-1;i>=0;i--){
         cout << P[i];
     }
-*/
 
-/*
-//nomor 3
+//Finds Intersection of 2 Matrices
     int p;
     cout << "Insert the length of array:" << endl; 
     cin >> p;
@@ -119,10 +75,8 @@ int number, a=0;
             }
         }
     }
-*/
 
-/*
-//nomor 4
+//2 Matrices Multiplication
     int a[2][2];
     int b[2][2];
     int c[2][2];
@@ -169,4 +123,4 @@ int number, a=0;
         cout << endl;
      }
     cout << endl;
-*/
+}
